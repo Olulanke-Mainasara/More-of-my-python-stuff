@@ -33,3 +33,17 @@ def add(a,b):
 num_1 = int(input("Enter first number: "))
 num_2 = int(input("Enter second numbers: "))
 add(num_1, num_2)
+
+# Code to Edit the Value already given by the Programmer
+def main():
+    value = 99
+    print("The value is",value)
+    change_me(value)
+    print("Back in main the value is",value)
+
+def change_me(arg):
+        print("I am changing the value.")
+        arg = 0
+        print("Now the value is", arg)
+
+main()
