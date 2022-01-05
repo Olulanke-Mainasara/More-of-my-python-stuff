@@ -1,11 +1,11 @@
-
-
+# Code for Counting the  number of figures between a given range
 mylist = list(range(3, 10))
 count = 0
 for I in mylist:
     count += 1
 print(count)
 
+# Code to check if the number entered by the user is greater than the size of the array of numbers giving
 mylist = [0,1,3,7,9]
 indexval = int(input("index val: "))
 sizemylist = len(mylist)
@@ -15,7 +15,7 @@ if sizemylist <= indexval:
 else:
     print("correct")
 
-
+# Code to show the concatenation of two lists
 listA = list(range(2, 5))
 listB = list(range(5, 10))
 theOGlist = listA + listB

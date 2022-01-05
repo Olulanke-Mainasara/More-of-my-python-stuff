@@ -1,7 +1,3 @@
-#Olulanke Mainasara Oreoluwa
-#19CG026468
-#Computer Science
-
 #Question1
 def main():
     print("Welcome")
