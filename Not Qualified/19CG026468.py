@@ -7,7 +7,7 @@ def distance():
     Kilometres= float(input("Please enter the distance in kilometres:"))
     miles=Kilometres*0.6214
     print("Distance travelled in miles is:",miles)
-main()
+mainone()
 
 #Question2
 def main():
@@ -291,14 +291,14 @@ else:
 def is_prime(value):
     if value== 1:
         return True
-    for i in range(2, value):
+    for i in range(2, value)
         if value % i == 0:
             return False
     return value
 
 for i in range(1, 101):
     value = is_prime(i)
-    if value:
+    if value
         print(value)
 
 main()
@@ -352,28 +352,4 @@ def guessing_games():
             Rerun = input("Press 'Y or y' to continue guessing?")
     print('Thanks for playing')
 main()
-
-# Question 21
- #Program to display property taxes
-
-TAX_FACTOR = 0.0065
-
-print('Enter the property lot number')
-print('or enter 0 to end.')
-lot = int(input('Lot number: '))
-
-while lot != 0:
-    # Getting poperty value.
-    value = float(input('Enter the property value: '))
-
-    # Calculating the tax of the property
-    tax = value * TAX_FACTOR
-
-    # Display the tax.
-    print('Property tax: ',tax)
-
-    # Getting the next lot number.
-    print('Enter the next lot number or')
-    print('enter 0 to end.')
-    lot = int(input('Lot number: '))
 
